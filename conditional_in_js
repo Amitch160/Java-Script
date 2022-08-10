@@ -1,0 +1,3 @@
+let a = prompt("How are you?")
+console.log(typeof a)
+alert("amit")
