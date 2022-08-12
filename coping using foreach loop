@@ -1,0 +1,9 @@
+const arrayItems = ['item1', 'item2', 'item3'];
+const copyItems = [];
+
+// using forEach
+arrayItems.forEach(function(item){
+  copyItems.push(item);
+})
+
+console.log(copyItems);
