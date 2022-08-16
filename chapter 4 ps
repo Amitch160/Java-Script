@@ -1,0 +1,23 @@
+// Chapter 4 Practise set
+
+
+// Problem 1
+let str = "har\""
+console.log(str.length);
+
+// Problem  2
+const sentence = "The quick brown fox jump over the lazy fox";
+const word = "brown";
+
+console.log(`The word "${word}" ${sentence.includes(word) ? "is" :" is not"} in the sentence `);
+
+
+// Problem 3
+
+console.log(word.toUpperCase())
+
+// Problem 5
+
+let str2 = "Please give Rs 1000";
+amount = str2.slice(('Please give Rs ') .length)
+console.log(amount)
