@@ -1,0 +1,13 @@
+alert("Please Enter Your Name");
+let age = prompt("Enter age","20");
+age = Number.parseInt(age);
+alert("The type of age is "+ typeof(age));
+let write = confirm("Do you want to write to your page?");
+if(write){
+  document.write(age);
+  
+}
+else
+{
+  document.write("Please allow me to write");
+}
